@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{%block titulo%}INTERNACIONALES{%endblock%}
+{%block contenido%}
+
+	{% for pais in lista %}
+		<p>{{pais.name}}</p>
+	{% endfor%}
+
+{%endblock%}
