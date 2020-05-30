@@ -1,6 +1,32 @@
 {% extends "base.html" %}
 {%block titulo%}INTERNACIONALES{%endblock%}
 {%block contenido%}
-{{lista}}
-
+<div id="header">
+    <div class="shell">
+      <!-- Logo -->
+      <h1>La Pagina De Los Futboleros</h1>
+      <!-- End Logo -->
+    </div>
+  </div>
+    <div class="shell">
+        <!-- Sub nav -->
+        <div id="side-nav">
+          <ul>
+            <li class="active">
+              <div class="link"><a href='/paises'>Paises</a></div>
+            </li>
+            <li>
+              <div class="link"><a href='/jugadores'>Jugadores</a></div>
+            </li>
+            <li>
+              <div class="link"><a href='/clasificacion'>CLasificación</a></div>
+            </li>
+            <li>
+              <div class="link"><a href='apuestas'>Casas de Apuestas</a></div>
+            </li>
+            <li>
+              <div class="link"><a href="#">photo gallery</a></div>
+            </li>
+          </ul>
+        </div>
 {%endblock%}
